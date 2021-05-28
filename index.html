@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Elison Martins | Desenvolvedor web</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS !-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Ícones do Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Meu CSS -->
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+<div class="container-fluid pt-3 background bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-md ">
+    <a class="navbar-brand" href="portfolio.html">Portfólio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+       		<li class="nav-item">
+           		<a class="nav-link" href="#sobre-mim">Sobre Mim</a>
+        	</li>
+        	<li class="nav-item">
+            	<a class="nav-link" href="#projetos">Projetos</a>
+        	</li>
+        	<li class="nav-item">
+            	<a class="nav-link" href="#contato">Contato</a>
+        	</li>
+        </ul>
+    </div>  
+    </nav>
+    
+    <div>
+        <h1 class="titulo">Olá, eu sou Elison Martins</h1>
+        
+    </div>
+    <script>
+        function typeWriter(elemento) {
+            const textoArray = elemento.innerHTML.split('');
+            elemento.innerHTML = '';
+            textoArray.forEach((letra, i) => {
+            setTimeout(() => elemento.innerHTML += letra, 100 * i);
+        });
+    }
+        const titulo = document.querySelector('.titulo');
+        typeWriter(titulo);
+
+    </script>
+    <a href="https://github.com/ElisonMartins" target="_blank">
+		<button class="btn">
+			<i class="fa fa-github"></i> Meu Github
+		</button>
+	</a>
+
+</div>    
+    <div class='container-fluid pt-3 detalhes' id='sobre-mim'>
+        <h1>Sobre mim</h1>  
+        
+        <p class='text'>Olá, eu sou Elison Martins, tenho 17 anos e moro em lajedo-PE.
+            Graduando do curso engenharia de software e desenvolvedor front-end.
+            <br/>
+            Atualmente estudo de forma autodidata sobre:
+            <br/>
+            
+            Javascript,
+            React.js e 
+            Python
+            <br/>
+            Estou buscando uma oportunidade para iniciar minha trajetória profissional e desenvolvedor ainda mais meus conhecimentos.</p>
+    <img src='imgs/avatar.png' id='eu' alt="Avatar me representando"></img>
+    </div>
+    
+    <div class='container-fluid pt-3 detalhes' id='projetos'>
+        <h1>Projetos</h1>
+        <div class='container'>
+            <a href="https://github.com/ElisonMartins/Snake" target="_blank">
+                <div class='card card-r'>
+                    <h2>Snake</h2>
+                </div>
+            </a>
+                
+            <a href="https://github.com/ElisonMartins/Clone-Vercel" target="_blank">    
+            <div class='card'>
+                <h2>Clone Vercel</h2>
+            </div>
+            </a>
+
+            <a href="https://github.com/ElisonMartins/Torre-de-Hanoi" target="_blank">
+            <div class='card card-l'>
+                <h2>Torre de Hanoi</h2>
+            </div>
+            </a>
+
+            <a href="https://github.com/ElisonMartins/Pokedex/" target="_blank">
+                <div class='card'>
+                    <h2>Pokedex</h2>
+                </div>
+            </a>
+        </div>
+     </div> 
+ 
+    <div class='container-fluid pt-3 detalhes' id='contato'>
+        <h1>Contato</h1>   
+        <p>Em breve...</p>
+	</div>
+
+<footer>
+	<div class="container-fluid pt-3">
+		<p>Feito por Elison Martins</p>
+		<article id="midiasSociaisFooter">
+            <a href="https://www.linkedin.com/in/elison-martins" target="_blank"><i class="fa fa-linkedin"></i></a>
+			<a href="https://github.com/ElisonMartins" target="_blank"><i class="fa fa-github"></i></a>
+			<a href="https://www.instagram.com/Elison__martins/" target="_blank"><i class="fa fa-instagram"></i></a>
+		</article>
+	</div>
+    <script>
+        
+    </script>
+</footer>
+
+<!-- jquery,popper e bootstrap JS !-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+</DOCTYPE> 
