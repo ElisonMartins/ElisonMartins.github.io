@@ -60,12 +60,11 @@
     <div class='container-fluid pt-3 detalhes' id='sobre-mim'>
         <h1>Sobre mim</h1>  
         
-        <p class='text'>Olá, eu sou Elison Martins, tenho 17 anos e moro em lajedo-PE.
+        <p class='text'>Olá, eu sou Elison Martins, tenho 18 anos e moro em lajedo-PE.
             Graduando do curso engenharia de software e desenvolvedor front-end.
             <br/>
             Atualmente estudo de forma autodidata sobre:
             <br/>
-            
             Javascript,
             React.js e 
             Python
@@ -78,15 +77,15 @@
     <div class='container-fluid pt-3 detalhes' id='projetos'>
         <h1>Projetos</h1>
         <div class='container'>
-            <a href="https://github.com/ElisonMartins/Snake" target="_blank">
+            <a href="https://snake-elisonmartins.vercel.app/" target="_blank">
                 <div class='card card-r'>
                     <h2>Snake</h2>
                 </div>
             </a>
                 
-            <a href="https://github.com/ElisonMartins/Clone-Vercel" target="_blank">    
+            <a href="https://elisonmartins.github.io/Jordan-Shoes/" target="_blank">    
             <div class='card'>
-                <h2>Clone Vercel</h2>
+                <h2>Jordan Shoes</h2>
             </div>
             </a>
 
@@ -96,7 +95,7 @@
             </div>
             </a>
 
-            <a href="https://github.com/ElisonMartins/Pokedex/" target="_blank">
+            <a href="https://pokedex-git-main-elisonmartins.vercel.app/" target="_blank">
                 <div class='card'>
                     <h2>Pokedex</h2>
                 </div>
@@ -105,9 +104,24 @@
      </div> 
  
     <div class='container-fluid pt-3 detalhes' id='contato'>
-        <h1>Contato</h1>   
+        <h1>Contato</h1>
+        
         <p>Em breve...</p>
 	</div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            const sr = ScrollReveal({
+                origin: 'top',
+                distance: '50px',
+                duration: 2000,
+                reset: true
+            });
+          
+            ScrollReveal().reveal('.text', { delay: 200 });
+            ScrollReveal().reveal('#eu', { delay: 200 });
+            ScrollReveal().reveal('.container', { delay: 200 });
+        </script>
 
 <footer>
 	<div class="container-fluid pt-3">
