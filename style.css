@@ -101,6 +101,20 @@ h1 {
     background-position: center center;
 }
 
+
+.midia {
+    display: flex;
+    background-color: #272935;
+    font-size: 15pt;
+    font-weight: 600;
+    border: none;
+    color: #F9F9F9;
+    width: 50%;
+    padding: 2%;
+    margin: 50px 10px;
+    cursor:pointer;
+}
+
 footer {
     text-align: center;
     background-color: #272935;
@@ -147,5 +161,10 @@ footer {
         float: left;
         margin: 1% 1% 0 0;
         
+    }
+
+    .midia {
+        display: inline;
+        width: 30%;
     }
 }	
